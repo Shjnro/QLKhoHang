@@ -41,6 +41,26 @@ const DATA = [
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
     title: 'Third Item',
   },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d72',
+    title: 'Third Item',
+  },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d72',
+    title: 'Third Item',
+  },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d72',
+    title: 'Third Item',
+  },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d72',
+    title: 'Third Item',
+  },
+  {
+    id: '58694a0f-3da1-471f-bd96-145571e29d72',
+    title: 'Third Item',
+  },
 ];
 
 type ItemProps = {title: string};
@@ -52,35 +72,58 @@ const Item = ({title}: ItemProps) => (
 );
 
 const OderLiat = () => {
-  return (
-    <View style={{backgroundColor: 'blue', flex: 0.3}} />
-    <SafeAreaView style={styles.container}>
+  const Boxes = () =>{
+    return(
+      <View style={[styles.boxes,{backgroundColor:'yellow'}]}>
+      <View style={[styles.boxesitem,{backgroundColor:'blue'}]}></View>
+      <View style={[styles.boxesitem,{backgroundColor:'red'}]}></View>
+      </View>
+    );
+  };
+  const ListItem = () =>{
+    return(
+      <SafeAreaView style={styles.boxesList}>
       <FlatList
         data={DATA}
         renderItem={({item}) => <Item title={item.title} />}
         keyExtractor={item => item.id}
       />
+      </SafeAreaView>
+    );
+  };
+  return (
+    <SafeAreaView  style={styles.container}>
+    <Boxes/>
+    <ListItem/>
     </SafeAreaView>
-      <View style={{backgroundColor: 'red', flex: 0.5}} />
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    paddingTop: 15,
-    justifyContent: 'space-between',
+  container:{
+  width:'100%',
   },
   item: {
-    width: '30%',
-    borderWidth: 1,
-    backgroundColor: '#f9c2ff',
-    padding: 20,
-    marginVertical: 8,
-    borderRadius:10
+    height:60,
+    marginTop:10,
+    backgroundColor:'yellow'
   },
   title: {
     fontSize: 32,
+  },
+  boxes: {
+    height:'12%',
+    flexDirection:'row',
+  },
+  ListItem:{
+  height:'85%'
+
+  },
+  boxesitem:{
+    width:'50%',
+  },
+  boxesTop:{
+    height:'15%',
   },
 });
 

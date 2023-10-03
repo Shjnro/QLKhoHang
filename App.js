@@ -2,13 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import OderLiat from './Screens/OrderLiat'
 
-
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Open up App.js to start working on your app!</Text> */}
+    {/* view header */}
+    <View style={styles.header}/>
+    {/*view main */}
+    <View style={styles.main}>
       <OderLiat/>
-      {/* <StatusBar style="auto" /> */}
+    </View>
+    {/* view footer */}
+    <View style={styles.footer}/>
     </View>
   );
 }
@@ -16,8 +20,23 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  },
+  header: {
+  backgroundColor:'black',
+  height:'10%',
+  width:'100%',
+  },
+  main: {
+  height:'80%',
+  width:'100%',
+  display: 'flex',
+  flexDirection: 'row',
+  backgroundColor:'orange',
+
+  },
+  footer: {
+  height:'10%',
+  width:'100%',
+  backgroundColor:'blue',
   },
 });
