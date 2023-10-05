@@ -13,98 +13,104 @@ import {
 
 const DATA = [
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/3/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "20/2/2010",
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
+    MaDonHang: "1",
+    MaHangHoa: "sua",
+    ThoiGianThue: "22/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dan bao quan lanh ",
+    ThoiGianKyKetHopDong: "30/4/2010",
   },
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/2/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "10/4/2010",
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
+    MaDonHang: "1",
+    MaHangHoa: "noi nhon",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "chua ky ket hop dong",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
+    MaDonHang: "1",
+    MaHangHoa: "nuoc giai khac",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "da xuat kho ",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/3/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "20/2/2010",
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
+    MaDonHang: "1",
+    MaHangHoa: "sua",
+    ThoiGianThue: "22/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dan bao quan lanh ",
+    ThoiGianKyKetHopDong: "30/4/2010",
   },
   {
-    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-    title: "First Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/2/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "10/4/2010",
   },
   {
-    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-    title: "Second Item",
+    MaDonHang: "1",
+    MaHangHoa: "nui nhon",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "chua ky ket hop dong",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
   {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
+    MaDonHang: "1",
+    MaHangHoa: "nuoc giai khac",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "da xuat kho ",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
   {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
-  },
-  {
-    id: "58694a0f-3da1-471f-bd96-145571e29d72",
-    title: "Third Item",
+    MaDonHang: "1",
+    MaHangHoa: "BanhNgot",
+    ThoiGianThue: "12/8/2023",
+    SoTien: 500,
+    TinhTrangDonHang: "dang luu kho ",
+    ThoiGianKyKetHopDong: "20/4/2010",
   },
 ];
 
-type ItemProps = { title: string };
-
-const Item = ({ title }: ItemProps) => (
-  <View style={styles.item}>
-    <Text style={styles.title}>{title}</Text>
-  </View>
-);
+// type ItemProps = { title: string };
 
 const OderLiat = () => {
   const Boxes = () => {
@@ -114,24 +120,34 @@ const OderLiat = () => {
           style={styles.button}
           onPress={() => Alert.alert("Left button pressed")}
         >
-          <Text style={styles.text}>hello</Text>
+          <Text style={styles.text}>Don Chua Hoang Thanh</Text>
         </Pressable>
         <Pressable
           style={styles.button}
           onPress={() => Alert.alert("Left button pressed")}
         >
-          <Text style={styles.text}>hello</Text>
+          <Text style={styles.text}>Don Da Hoang Thanh</Text>
         </Pressable>
       </View>
     );
   };
   const ListItem = () => {
     return (
-      <SafeAreaView style={styles.boxesList}>
+        <SafeAreaView style={styles.boxesList}>
         <FlatList
           data={DATA}
-          renderItem={({ item }) => <Item  title={item.title} ></Item>}
           keyExtractor={(item) => item.id}
+          renderItem={({ item }) => (
+            <View style={styles.item}>
+            <View style={styles.setTop}>
+              <Text style={styles.title}>Ma Don Hang:{item.MaDonHang}</Text>
+              <Text style={[styles.title,{marginLeft:100}]}>Thoi Gian Thue:{item.ThoiGianThue}</Text>
+            </View>
+              <Text style={styles.title}>{item.MaHangHoa}</Text>
+              <Text style={styles.title}>{item.TinhTrangDonHang}</Text>
+              <Text style={styles.title}>{item.SoTien}</Text>
+            </View>
+          )}
         />
       </SafeAreaView>
     );
@@ -146,31 +162,38 @@ const OderLiat = () => {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 10,
+    height:'100%',
   },
   item: {
     height: 120,
     margin: 10,
     borderRadius: 10,
-    backgroundColor: "red",
+    backgroundColor: "#00feff",
   },
   title: {
-    fontSize: 23,
+  fontSize: 13,
+  margin: 6,
   },
   boxes: {
+    marginTop:50,
+    width: "100%",
     height: "9%",
     flexDirection: "row",
-    // backgroundColor: "blue",
-  },
 
+  },
+  boxesList:{
+    height: "91%",
+  },
   button: {
+    width: "50%",
     alignItems: "center",
     justifyContent: "center",
-    paddingVertical: 12,
-    paddingHorizontal: 79.4,
     borderRadius: 4,
     elevation: 3,
+    fontSize: 10,
     backgroundColor: "white",
+    borderWidth: 1,
+    borderColor:"blue",
   },
   text: {
     fontSize: 16,
@@ -179,6 +202,10 @@ const styles = StyleSheet.create({
     letterSpacing: 0.25,
     color: "balck",
   },
+  setTop:{
+  width: "100%",
+  flexDirection: "row",
+  }
 });
 
 export default OderLiat;
