@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import DanhSachHangHoa from './src/chuKho/DanhSachHangHoa';
 import TongSoHangHoa from './src/chuKho/TongSoHangHoa';
 import QuanLyHangHoa from './src/navigation/QuanLyHangHoa';
+import Home from './src/navigation/Home';
 
 export default function App() {
   return (

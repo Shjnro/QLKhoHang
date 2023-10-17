@@ -2,6 +2,7 @@ import React from "react";
 import { Text, Platform, View } from "react-native";
 import DanhSachHangHoa from "../chuKho/DanhSachHangHoa";
 import TongSoHangHoa from "../chuKho/TongSoHangHoa";
+import Home from "./Home";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Entypo } from '@expo/vector-icons';
@@ -43,7 +44,7 @@ const index = () => {
                 />
                 <Tab.Screen
                     name="Transaction"
-                    component={TongSoHangHoa}
+                    component={Home}
                     options={{
                         tabBarIcon: ({ focused }) => {
                             return (
