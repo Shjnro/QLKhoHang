@@ -36,14 +36,14 @@ const index = () => {
                             return (
                                 <View style={{ alignItems: "center", justifyContent: "center" }}>
                                     <Ionicons name="stats-chart" size={24} color={focused ? "#16247d" : "#111"}  />
-                                    <Text style={{ fontSize: 12, color: "#16247d" }}>Thống Kê</Text>
+                                    <Text style={{ fontSize: 12, color: "#16247d" }}>Thống Kê Hàng Hóa</Text>
                                 </View>
                             )
                         }
                     }}
                 />
                 <Tab.Screen
-                    name="Transaction"
+                    name="Home"
                     component={Home}
                     options={{
                         tabBarIcon: ({ focused }) => {
@@ -73,7 +73,7 @@ const index = () => {
                             return (
                                 <View style={{ alignItems: "center", justifyContent: "center" }}>
                                     <FontAwesome name="list" size={24} color={focused ? "#16247d" : "#111"} />
-                                    <Text style={{ fontSize: 12, color: "#16247d" }}>Danh Sách</Text>
+                                    <Text style={{ fontSize: 12, color: "#16247d" }}>Danh Sách Hàng Hóa</Text>
                                 </View>
                             )
                         }

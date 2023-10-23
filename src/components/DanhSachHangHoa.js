@@ -31,6 +31,13 @@ const products = [
         count: '1000 m3',
         idWarehouse: 'warehouse1',
     },
+    {
+        id: 'product5',
+        nameProduct: 'Cua',
+        warehouse: 'Kho 4',
+        count: '1000 m3',
+        idWarehouse: 'warehouse1',
+    },
 ];
 
 const warehouses = [

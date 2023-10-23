@@ -27,7 +27,7 @@ const TongSoHangHoa = () => {
                 strokeWidth: 2 // optional
             }
         ],
-        legend: ["Tổng số hàng hóa trong năm theo tháng"] // optional
+        legend: ["Tổng số hàng hóa trong kho lạnh (m3)"] // optional
     };
 
     return (
